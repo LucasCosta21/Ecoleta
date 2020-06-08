@@ -2,6 +2,7 @@ import express from 'express';
 import path from 'path';
 import cors from 'cors';
 import routes from './routes';
+import { errors } from 'celebrate';
 
 const app = express();
 const route = 3333;
