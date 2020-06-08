@@ -19,18 +19,6 @@ routes.get('/pontos/:id', pontosController.show);
 routes.post(
     '/pontos', 
     upload.single('image'),
-    celebrate({
-        body: Joi.object().keys({
-            nome: Joi.string().required(),
-            email: Joi.string().required().email,
-            numero: Joi.number().required(),
-            latitude: Joi.number().required(),
-            longitude: Joi.number().required(),
-            cidade: Joi.string().required(),
-            uf: Joi.string().required().max(2),
-            itens: Joi.string().required()
-        })
-    }),
     pontosController.create
 );
 

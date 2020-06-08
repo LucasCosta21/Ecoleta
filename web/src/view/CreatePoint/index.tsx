@@ -136,6 +136,8 @@ const CreatePoint = () => {
             data.append('image', arquivoSelecionado);
         }
 
+        console.log(arquivoSelecionado);
+
         await api.post('pontos', data);
         alert('ponto de coleta criado!');
         history.push('/');

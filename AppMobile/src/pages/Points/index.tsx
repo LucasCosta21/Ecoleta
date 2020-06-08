@@ -73,7 +73,6 @@ const Points = () => {
             itens: selectedItems
           }
         }).then(response => {
-            console.log(response.data);
             setPoints(response.data);
         });
     }, [selectedItems]);

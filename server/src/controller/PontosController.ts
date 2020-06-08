@@ -47,6 +47,7 @@ class PontosController{
     }
 
     async create(request: Request, response: Response) {
+        console.log("chega");
         const {
             nome,
             email,
@@ -57,7 +58,7 @@ class PontosController{
             uf,
             itens
         } = request.body;
-
+        
         const trx = await Knex.transaction();
         const ponto = {
             caminho_imagem: request.file.filename,
