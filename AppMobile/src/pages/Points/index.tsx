@@ -19,6 +19,7 @@ interface Point{
   id: number;
   nome: string;
   caminho_imagem: string;
+  url_imagem: string;
   latitude: number;
   longitude: number;
 }
@@ -128,7 +129,7 @@ const Points = () => {
                               onPress={() => handleNavigateToDetail(point.id)}
                           >
                               <View style={styles.mapMarkerContainer}>
-                                  <Image style={styles.mapMarkerImage} source={{ uri: point.caminho_imagem }} />
+                                  <Image style={styles.mapMarkerImage} source={{ uri: point.url_imagem }} />
                                   <Text style={styles.mapMarkerTitle}>{point.nome}</Text>
                               </View>
                           </Marker>
