@@ -38,16 +38,18 @@ Este conjunto de aplicações permite aos usuários o cadastro de pontos de cole
 
 ## Rodando
 
-É necessário que você tenha o node instalado em sua máquina (: -> https://nodejs.org/en/download/
+É necessário que você tenha o node instalado em sua máquina 🙂 -> https://nodejs.org/en/download/
 
 após baixar o repositório, a primeira coisa à se fazer é abrir a pasta server em uma janela do cmd (Pode-se usar o comando `cd nome do diretório`, para facilitar a navegação até o diretório). Uma vez dentro da pasta, deverão ser executados dois comandos para começar à executar a API:
 
 `npm install` -> para a instalação das dependências da api
+
 `npm run dev` -> para a execução do programa no ambiente node
 
 A partir do momento em que a API está rodando, tanto nosso app mobile, quanto nossa página web já estarão disponíveis para uso. Começando pela página web, primeiro, com outra janela do cmd, navegue até a pasta web, e rode os seguintes comandos:
 	
 `npm install` -> para a instalação das dependências do Front-end
+
 `npm start` -> para a execução do React
 
 Após cadastrar alguns pontos na página web, você já pode visualizá-los no app, mas para isso, você precisará do aplicativo Expo instalado em seu celular, você pode instalá-los nos seguintes links:
