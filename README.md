@@ -26,9 +26,9 @@
 
 <p align="center">
   <a href="#Introdução">Introdução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Rodando">Introdução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Rodando">Rodando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Arquitetura">Arquitetura</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Fontes">Fontes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
@@ -59,6 +59,20 @@ Após cadastrar alguns pontos na página web, você já pode visualizá-los no a
 	
 Após a instalação do app em seu dispositivo, entre na pasta AppMobile em uma janela do cmd, e rode os mesmos comandos rodados na pasta da página web. Após rodar o segundo comando, aguarde o carregamento de um QR code no cmd onde foi rodado o comando, com o app Expo aberto na opção de rastrear QR code no celular, escaneie o código e aguarde o carregamento do app!!.
 	
+## Arquitetura
+
+Este sistema apresenta uma arquitetura relativamente simples. No back-end são utilizadas as patterns de controllers e services, que se mostraram suficientes para manter uma boa modularização, e simultaneamente, uma facilidade.
+No Front-end foram utilizadas as ferramentas do Redux, a implementação da arquitetura Flux do React, junto de algumas práticas de programação funcional. Desta forma, a troca reativa de dados na aplicação se manteve simples, devido também à pouca quantidade de dados que são utilizados por toda a aplicação
+
+Fluxo básico dos dados.
+![data flow](/readmeAssets/dataFlow.png)
+
+Para o armazenamento dos dados, foi utilizado o Sqlite 3, devido à grande facilidade e rapidez que esta ferramenta proporciona.
+
+DER do banco sqlite 3 utilizado na implementação.
+
+![der](/readmeAssets/EcoletaDER.png)
+	
 ## Tecnologias
 Project is created with:
 * Node: 13.6.0
@@ -67,10 +81,6 @@ Project is created with:
 * express: 4.17.1
 * knex: 0.21.1
 * sqlite3: 4.2.0
-
-## Arquitetura
-Fluxo de dados da aplicação:
-![data flow](/readmeAssets/dataFlow.png)
 
 ## Fontes
 
