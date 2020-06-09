@@ -55,6 +55,7 @@ A partir do momento em que a API está rodando, tanto nosso app mobile, quanto n
 Após cadastrar alguns pontos na página web, você já pode visualizá-los no app, mas para isso, você precisará do aplicativo Expo instalado em seu celular, você pode instalá-los nos seguintes links:
 
 <a href="https://play.google.com/store/apps/details?id=host.exp.exponent&hl=pt_BR">Android</a>
+
 <a href="https://apps.apple.com/br/app/expo-client/id982107779">IOS</a>
 	
 Após a instalação do app em seu dispositivo, entre na pasta AppMobile em uma janela do cmd, e rode os mesmos comandos rodados na pasta da página web. Após rodar o segundo comando, aguarde o carregamento de um QR code no cmd onde foi rodado o comando, com o app Expo aberto na opção de rastrear QR code no celular, escaneie o código e aguarde o carregamento do app!!.
