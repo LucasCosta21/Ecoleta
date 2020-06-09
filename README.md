@@ -26,13 +26,36 @@
 
 <p align="center">
   <a href="#Introdução">Introdução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Rodando">Introdução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Arquitetura">Arquitetura</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Fontes">Fontes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 ## Introdução
-Solução full stack do app proposto na Semana Next Level
+	A solução neste repositório, é uma implementação do aplicativo, web page e API propostos na 1º NLW (Next Level Week). Obrigado equipe da rocketseat, pela enorme oportunidade dada por vocês, para que dev's de todo o Brasil possam aprender tecnologias atuais e com grande uso no mercado!
+	Este conjunto de aplicações permite aos usuários o cadastro de pontos de coleta via uma página web, construida em ReactJS. Os pontos cadastrados nesta página podem ser buscados posteriormente no app mobile, feito em React Native. Todas essas telas são integradas e interfaceadas via API, também disponível neste repositório, construída em node com auxílio do express.js.
+
+## Rodando
+
+É necessário que você tenha o node instalado em sua máquina (: -> https://nodejs.org/en/download/
+
+	após baixar o repositório, a primeira coisa à se fazer é abrir a pasta server em uma janela do cmd (Pode-se usar o comando `cd nome do diretório`, para facilitar a navegação até o diretório). Uma vez dentro da pasta, deverão ser executados dois comandos para começar à executar a API:
+
+`npm install` -> para a instalação das dependências da api
+`npm run dev` -> para a execução do programa no ambiente node
+
+	A partir do momento em que a API está rodando, tanto nosso app mobile, quanto nossa página web já estarão disponíveis para uso. Começando pela página web, primeiro, com outra janela do cmd, navegue até a pasta web, e rode os seguintes comandos:
+	
+`npm install` -> para a instalação das dependências do Front-end
+`npm start` -> para a execução do React
+
+	Após cadastrar alguns pontos na página web, você já pode visualizá-los no app, mas para isso, você precisará do aplicativo Expo instalado em seu celular, você pode instalá-los nos seguintes links:
+
+<a href="https://play.google.com/store/apps/details?id=host.exp.exponent&hl=pt_BR">Android</a>
+<a href="https://apps.apple.com/br/app/expo-client/id982107779">IOS</a>
+	
+	Após a instalação do app em seu dispositivo, entre na pasta AppMobile em uma janela do cmd, e rode os mesmos comandos rodados na pasta da página web. Após rodar o segundo comando, aguarde o carregamento de um QR code no cmd onde foi rodado o comando, com o app Expo aberto na opção de rastrear QR code no celular, escaneie o código e aguarde o carregamento do app!!.
 	
 ## Tecnologias
 Project is created with:
