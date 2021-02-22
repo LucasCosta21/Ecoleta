@@ -38,7 +38,7 @@ Este conjunto de aplicações permite aos usuários o cadastro de pontos de cole
 
 ## Rodando
 
-É necessário que você tenha o node instalado em sua máquina 🙂 -> https://nodejs.org/en/download/
+É necessário que você tenha o node instalado em sua máquina -> https://nodejs.org/en/download/
 
 após baixar o repositório, a primeira coisa à se fazer é abrir a pasta server em uma janela do cmd (Pode-se usar o comando `cd nome do diretório`, para facilitar a navegação até o diretório). Uma vez dentro da pasta, deverão ser executados dois comandos para começar à executar a API:
 
@@ -86,4 +86,4 @@ Project is created with:
 ## Fontes
 
 * <div>Ícone do início do repositório feito por <a href="https://www.flaticon.com/br/autores/roundicons" title="Roundicons">Roundicons</a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></div>
-* Uma implementação da 1º Next Level Week, by -> 🚀 https://rocketseat.com.br/ 🚀
+* Uma implementação da 1º Next Level Week, by -> https://rocketseat.com.br/
